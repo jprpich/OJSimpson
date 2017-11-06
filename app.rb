@@ -45,3 +45,13 @@ end
 get '/lawyers' do
   erb :lawyers
 end
+
+get '/trials' do
+  erb :trials
+end
+
+get '/show' do
+  erb :show
+end
+
+
